@@ -3,7 +3,7 @@ function Footer() {
   return (
     <footer className="footer">
       <div className="container footer-inner">
-        <span>© {year} My Portfolio</span>
+        <span>© {year} My PersonalPortfolio</span>
         <span className="muted">Built with React and Vite</span>
       </div>
     </footer>

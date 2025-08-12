@@ -7,7 +7,7 @@ export const projects = [
     image: 'https://picsum.photos/seed/portfolio/800/450',
     links: {
       demo: '#',
-      source: '#',
+      source: 'https://github.com/JoseCer1/MyPersonalPorfolio',
     },
   },
   {
