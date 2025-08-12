@@ -6,11 +6,14 @@ function Navbar() {
     <header className="navbar">
       <div className="nav-inner container">
         <NavLink to="/" className="brand">
-          <span>Home</span>
+          <span>My Portfolio</span>
         </NavLink>
         <nav className="nav-links">
           <NavLink to="/projects" className={({ isActive }) => isActive ? 'nav-link active' : 'nav-link'}>
             Projects
+          </NavLink>
+          <NavLink to="/experience" className={({ isActive }) => isActive ? 'nav-link active' : 'nav-link'}>
+            Experience
           </NavLink>
           <NavLink to="/about" className={({ isActive }) => isActive ? 'nav-link active' : 'nav-link'}>
             About

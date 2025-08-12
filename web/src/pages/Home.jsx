@@ -20,7 +20,7 @@ function Home() {
             transition={{ delay: 0.3, duration: 0.5 }}
           />
           <div className="profile-text">
-            <h1>Hello, I am <span className="accent">Jose Cervantes LEal</span></h1>
+            <h1>Hello, I am <span className="accent">Jose Cervantes Leal!</span></h1>
             <p className="lead">I am a computer science with a passsion for building and learning new things.</p>
           </div>
         </div>
