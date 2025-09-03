@@ -4,14 +4,24 @@ import { FiBriefcase, FiCalendar, FiMapPin } from 'react-icons/fi'
 function Experience() {
   const experiences = [
     {
+      id: 0,
+      type: 'work',
+      title: 'Co-Manager',
+      company: 'Journeys',
+      location: 'Mercedes, TX',
+      period: 'August 2025 - Present',
+      description: 'Oversee daily store operations, including staffing, interviews, inventory, and visual standards, while leading the team to meet sales goals and maintain excellent customer service.',
+      skills: ['Team Management', 'Customer Service', 'Inventory Management', 'Visual Merchandising', 'Sales']
+    },
+    {
       id: 1,
       type: 'work',
-      title: 'Student Assistant',
+      title: 'Student Data Analyst Assistant',
       company: 'Office of Field Experiences (UTRGV)',
       location: 'Brownsville, TX',
-      period: 'June 2025 - Present',
-      description: 'Assisted with students records and status using Microsoft Excel and Google Sheets.',
-      skills: ['Microsoft Excel', 'Google Sheets', 'Data Entry']
+      period: 'June 2025 - August 2025',
+      description: 'Managed and analyzed student data using Excel, SQL, and Power BI to create reports and visual dashboards, presenting insights on performance and program outcomes to supervisors.',
+      skills: ['SQL', 'Microsoft Excel', 'Google Sheets', 'Data Entry', 'Data Analysis', 'Data Visualization',]
     },
     {
       id: 2,
@@ -20,7 +30,7 @@ function Experience() {
       company: 'Office of Educator Preparation & Accountability (UTRGV)',
       location: 'Edinburg, TX',
       period: 'Sept. 2024 - June 2025',
-      description: 'Maintained track of students progress and kept records of their performance. Created visualizations of data using Microsoft Excel and Google Sheets to show patterns of students progress.',
+      description: 'Developed reports and dashboards in Excel, SQL, and Power BI to track student performance and program metrics, providing data-driven insights that supported departmental decision-making.',
       skills: ['Microsoft Excel', 'Google Sheets', 'Data Entry', 'SQL']
     },
     {

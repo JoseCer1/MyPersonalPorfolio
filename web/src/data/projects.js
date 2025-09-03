@@ -4,21 +4,21 @@ export const projects = [
     title: 'Interactive Portfolio',
     description: 'A personal portfolio built with React, featuring animations, dark mode, and responsive design.',
     tags: ['React', 'Vite', 'Framer Motion'],
-    image: 'https://picsum.photos/seed/portfolio/800/450',
+    image: '/portfolioPic.png',
     links: {
       demo: '#',
       source: 'https://github.com/JoseCer1/MyPersonalPorfolio',
     },
   },
   {
-    id: 'api-dashboard',
-    title: 'API Dashboard',
-    description: 'Dashboard visualizing API data with charts and filters.',
-    tags: ['React', 'REST', 'Charts'],
+    id: 'lucid-dreams',
+    title: 'Lucid Dreams - 2D Video Game',
+    description: '2D decision-basedvideo game made in Unity using C# and .NET',
+    tags: ['C#', '.NET', 'Unity'],
     image: 'https://picsum.photos/seed/dashboard/800/450',
     links: {
       demo: '#',
-      source: '#',
+      source: 'https://github.com/Manuvv01/Senior-Project',
     },
   },
   {
