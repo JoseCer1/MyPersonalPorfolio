@@ -2,8 +2,8 @@ import { motion } from 'framer-motion'
 import { FiFileText, FiDownload } from 'react-icons/fi'
 
 function About() {
-  const skills = ['JavaScript', 'Python', 'React', 'Node.js', 'CSS', 'HTML', 'REST APIs'];
-  const dataAnalyticsSkills = ['SQL', 'Power BI', 'Excel', 'Python', 'Google Sheets'];
+  const skills = ['JavaScript', 'Python', 'React', 'Node.js', 'CSS', 'HTML', 'REST APIs', 'GitHub'];
+  const dataAnalyticsSkills = ['SQL', 'Power BI', 'Excel', 'Python', 'Google Sheets', 'Github'];
   return (
     <section>
       <motion.h2 initial={{ opacity: 0, y: 10 }} animate={{ opacity: 1, y: 0 }}>About Me</motion.h2>
