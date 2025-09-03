@@ -91,6 +91,17 @@ main.container { padding-top: 28px; }
 
 /* Sections */
 .section-header { display: flex; flex-direction: column; gap: 12px; margin-bottom: 18px; }
+.skills-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+  margin: 1rem 0;
+}
+
+.skills-column h3 {
+  margin-bottom: 1rem;
+}
+
 .chip-row { display: flex; flex-wrap: wrap; gap: 8px; }
 .chip { background: transparent; color: var(--muted); border: 1px solid var(--border); border-radius: 999px; padding: 6px 10px; cursor: pointer; }
 .chip:hover { color: var(--text); }
@@ -138,6 +149,7 @@ main.container { padding-top: 28px; }
 .timeline {
   position: relative;
   padding-left: 30px;
+  text-align: center;
 }
 
 .timeline::before {
@@ -148,12 +160,14 @@ main.container { padding-top: 28px; }
   bottom: 0;
   width: 2px;
   background: var(--border);
+  text-align: center;
 }
 
 .timeline-item {
   position: relative;
   margin-bottom: 30px;
   padding-left: 30px;
+  text-align: center;
 }
 
 .timeline-marker {
@@ -171,6 +185,8 @@ main.container { padding-top: 28px; }
   border: 3px solid var(--bg);
   z-index: 1;
 }
+
+
 
 .timeline-content {
   background: color-mix(in oklab, var(--card), transparent 10%);
